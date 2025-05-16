@@ -1,5 +1,11 @@
 # ObjectPoseEstimation
 
+Clone the repository:
+```
+git clone https://github.com/RoboticRepositories/ObjectPoseEstimation.git
+cd ObjectPoseEstimation && git submodule update --init --recursive
+```
+
 ## ZS6D
 
 Build the Docker image:
