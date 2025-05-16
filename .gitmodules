@@ -1,0 +1,9 @@
+[submodule "ZS6D"]
+	path = ZS6D
+	url = https://github.com/PhilippAuss/ZS6D
+[submodule "foundpose"]
+	path = foundpose
+	url = https://github.com/facebookresearch/foundpose
+[submodule "SAM-6D"]
+	path = SAM-6D
+	url = https://github.com/JiehongLin/SAM-6D
