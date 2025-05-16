@@ -46,10 +46,6 @@ RUN python3 -m pip install \
     transforms3d \
     trimesh \
     vispy==0.12.2
-
-RUN mkdir /code && cd /code \
- && git clone https://github.com/TransMisiones-Centauro/ZS6D.git \
- && cd ZS6D && git submodule update --init --recursive
  
 WORKDIR /Notebooks
 
