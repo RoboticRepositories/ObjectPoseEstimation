@@ -16,3 +16,7 @@ Run a Docker container:
 ```
 ./Docker/ZS6D/run.sh 
 ```
+
+Jupyter is running in the Docker container:
+1. [Prepare the templates](http://localhost:8888/notebooks/prepare_templates_and_gt.ipynb)
+2. [Run an inference test](http://localhost:8888/notebooks/inference_test.ipynb)
