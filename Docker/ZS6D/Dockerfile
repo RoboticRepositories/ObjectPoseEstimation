@@ -46,6 +46,14 @@ RUN python3 -m pip install \
     transforms3d \
     trimesh \
     vispy==0.12.2
+
+# Install additional packages for template generation
+RUN apt-get update && apt-get install -y \
+    libegl1-mesa-dev \
+    libgles2-mesa-dev \
+    mesa-utils-extra \
+    xvfb \
+ && rm -rf /var/lib/apt/lists/*
  
 WORKDIR /Notebooks
 
