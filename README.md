@@ -46,3 +46,23 @@ Run a Docker container:
 
 Jupyter is running in the Docker container:
 1. [Run an inference test](http://localhost:8888/notebooks/inference_demo.ipynb)
+
+## FoundPose
+
+Build the Docker image:
+```
+./Docker/FoundPose/build.sh
+```
+
+Or pull it from Docker hub:
+```
+./Docker/FoundPose/pull.sh
+```
+
+Run a Docker container:
+```
+./Docker/FoundPose/run.sh 
+```
+
+Jupyter is running in the Docker container:
+1. [Run an inference test](http://localhost:8888/notebooks/infer.ipynb)
