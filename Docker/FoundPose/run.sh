@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 docker run --rm --network host --gpus all \
+  -v ./Datasets:/Datasets \
   -v ./Workspace/FoundPose:/Workspace \
   -v ./foundpose:/code/foundpose \
   -v $HOME/.cache/torch:/root/.cache/torch \
