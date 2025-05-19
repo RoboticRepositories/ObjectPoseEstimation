@@ -36,6 +36,8 @@ RUN apt-get update && apt-get install -y \
     python3-dev \
     wget \
  && rm -rf /var/lib/apt/lists/*
- 
+
+RUN . /root/.bashrc && conda activate && pip install matplotlib==3.7.0
+
 WORKDIR /Workspace
 
