@@ -2,6 +2,8 @@
 
 cd $(dirname "$0")
 
+rm -fr cnos-fastsam
+
 wget https://bop.felk.cvut.cz/media/data/bop_datasets_extra/bop23_default_detections_for_task4.zip
 
 unzip bop23_default_detections_for_task4.zip
