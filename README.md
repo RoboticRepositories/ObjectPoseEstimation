@@ -6,7 +6,7 @@ git clone https://github.com/RoboticRepositories/ObjectPoseEstimation.git
 cd ObjectPoseEstimation && git submodule update --init --recursive
 ```
 
-## ZS6D
+## [ZS6D](https://github.com/PhilippAuss/ZS6D)
 
 Build the Docker image:
 ```
@@ -27,7 +27,7 @@ Jupyter is running in the Docker container:
 1. [Prepare the templates](http://localhost:8888/notebooks/prepare_templates_and_gt.ipynb)
 2. [Run an inference test](http://localhost:8888/notebooks/inference_test.ipynb)
 
-## SAM-6D
+## [SAM-6D](https://github.com/JiehongLin/SAM-6D)
 
 Build the Docker image:
 ```
@@ -47,7 +47,7 @@ Run a Docker container:
 Jupyter is running in the Docker container:
 1. [Run an inference test](http://localhost:8888/notebooks/inference_demo.ipynb)
 
-## FoundPose
+## [FoundPose](https://github.com/facebookresearch/foundpose)
 
 Build the Docker image:
 ```
