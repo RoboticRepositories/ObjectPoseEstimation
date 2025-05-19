@@ -73,4 +73,6 @@ Run a Docker container:
 ```
 
 Jupyter is running in the Docker container:
-1. [Run an inference test](http://localhost:8888/notebooks/infer.ipynb)
+1. [Generating templates](http://localhost:8888/notebooks/gen_templates.ipynb)
+2. [Generating object representation](http://localhost:8888/notebooks/gen_repre.ipynb)
+3. [Run an inference test](http://localhost:8888/notebooks/infer.ipynb)
