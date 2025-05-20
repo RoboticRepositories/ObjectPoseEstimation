@@ -53,7 +53,8 @@ Run a Docker container:
 ```
 
 Jupyter is running in the Docker container:
-1. [Run an inference test](http://localhost:8888/notebooks/inference_demo.ipynb)
+1. [Download models](http://127.0.0.1:8888/notebooks/download_models.ipynb)
+2. [Run an inference test](http://localhost:8888/notebooks/inference_demo.ipynb)
 
 ## [FoundPose](https://github.com/facebookresearch/foundpose)
 
