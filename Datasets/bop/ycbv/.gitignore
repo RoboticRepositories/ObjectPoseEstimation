@@ -1,0 +1,9 @@
+camera_cmu.json
+camera_uw.json
+dataset_info.md
+test_targets_bop19.json
+models/
+models_eval/
+models_fine/
+test/
+
