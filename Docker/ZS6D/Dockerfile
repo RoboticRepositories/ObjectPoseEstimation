@@ -55,5 +55,10 @@ RUN apt-get update && apt-get install -y \
     xvfb \
  && rm -rf /var/lib/apt/lists/*
  
+ # Install additional packages for downloading and uncompressing templates
+RUN apt-get update && apt-get install -y \
+    unzip \
+ && rm -rf /var/lib/apt/lists/*
+ 
 WORKDIR /Workspace
 
