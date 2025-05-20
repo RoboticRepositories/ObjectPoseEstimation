@@ -73,6 +73,6 @@ Run a Docker container:
 ```
 
 Jupyter is running in the Docker container:
-1. [Generate](http://localhost:8888/notebooks/gen_templates.ipynb) templates or [download](http://localhost:8888/notebooks/download_templates.ipynb) templates for LM-O
-2. [Generating object representation](http://localhost:8888/notebooks/gen_repre.ipynb)
+1. [Generate](http://localhost:8888/notebooks/gen_templates.ipynb) or [download](http://localhost:8888/notebooks/download_templates.ipynb) templates for LM-O
+2. [Generate](http://localhost:8888/notebooks/gen_repre.ipynb) or [download](http://localhost:8888/notebooks/download_repre.ipynb) object representations for LM-O
 3. [Run an inference test](http://localhost:8888/notebooks/infer.ipynb)
