@@ -1,0 +1,7 @@
+camera.json
+dataset_info.md
+test_targets_bop19.json
+models/
+models_eval/
+test/
+
