@@ -1,5 +1,23 @@
 # ObjectPoseEstimation
 
+Methods for zero-shot 6D object pose estimation from RGB(-D) images:
+* [ZS6D](https://github.com/PhilippAuss/ZS6D)
+* [SAM-6D](https://github.com/JiehongLin/SAM-6D)
+* [FoundPose](https://github.com/facebookresearch/foundpose)
+
+Evaluation on the [BOP datasets](https://bop.felk.cvut.cz/datasets/).
+
+## Requirements
+2025/05/20 - Tested with:
+*    11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz - 1 socket, 8 cores per socket, 2 threads per core
+*    32GiB RAM - 2 x 16GiB SODIMM DDR4 Synchronous 3200 MHz
+*    NVIDIA GeForce RTX 3080 Mobile 16GB
+*    Ubuntu 22.04.5
+*    NVIDIA Driver Version: 535.247.01
+*    Docker version 28.1.1, build 4eba377
+*    NVIDIA Container Toolkit 1.17.6
+
+## Installation
 Clone the repository:
 ```
 git clone https://github.com/RoboticRepositories/ObjectPoseEstimation.git
