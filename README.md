@@ -35,8 +35,9 @@ Run a Docker container:
 ```
 
 Jupyter is running in the Docker container:
-1. [Prepare the templates](http://localhost:8888/notebooks/prepare_templates_and_gt.ipynb)
-2. [Run an inference test](http://localhost:8888/notebooks/inference_test.ipynb)
+1. [Download templates for YCBV](http://localhost:8888/notebooks/download_templates.ipynb)
+2. [Prepare the templates](http://localhost:8888/notebooks/prepare_templates_and_gt.ipynb)
+3. [Run an inference test](http://localhost:8888/notebooks/inference_test.ipynb)
 
 ## [SAM-6D](https://github.com/JiehongLin/SAM-6D)
 
