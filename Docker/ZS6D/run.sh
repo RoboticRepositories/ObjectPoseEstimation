@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 docker run --rm --network host --gpus all \
+  -v ./Datasets:/Datasets \
   -v ./Workspace/ZS6D:/Workspace \
   -v ./ZS6D:/code/ZS6D \
   -v $HOME/.cache/torch:/root/.cache/torch \
