@@ -82,6 +82,9 @@ Jupyter is running in the Docker container:
 2. [Render templates](http://127.0.0.1:8888/notebooks/render_templates.ipynb)
 3. [Run an inference test](http://localhost:8888/notebooks/inference_demo.ipynb)
 
+![segmentation mask](./assets/sam6d_segmentation_mask.png)
+![pose estimation](./assets/sam6d_pose_estimation.png)
+
 ## [FoundPose](https://github.com/facebookresearch/foundpose)
 
 Build the Docker image:
