@@ -58,6 +58,8 @@ Jupyter is running in the Docker container:
 2. [Prepare the templates](http://localhost:8888/notebooks/prepare_templates_and_gt.ipynb)
 3. [Run an inference test](http://localhost:8888/notebooks/inference_test.ipynb)
 
+![test results](./assets/test_bop19.png)
+
 ## [SAM-6D](https://github.com/JiehongLin/SAM-6D)
 
 Build the Docker image:
