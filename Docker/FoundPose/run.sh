@@ -11,5 +11,5 @@
 rocker --x11 --nvidia --user --network host \
   --volume ./Datasets:/Datasets ./Workspace/FoundPose:/Workspace \
            ./foundpose:/code/foundpose $HOME/.cache -- \
-  robinlab/op_foundpose jupyter notebook --no-browser --IdentityProvider.token=''
+  robinlab/op_foundpose jupyter notebook --no-browser --IdentityProvider.token='' --notebook-dir=/Workspace
 
