@@ -8,8 +8,8 @@
 #  robinlab/op_foundpose jupyter notebook --no-browser --allow-root \
 #  --IdentityProvider.token=''
 
-rocker --x11 --nvidia --network host \
+rocker --x11 --nvidia --user --network host \
   --volume ./Datasets:/Datasets ./Workspace/FoundPose:/Workspace \
-           ./foundpose:/code/foundpose $HOME/.cache/torch:/root/.cache/torch -- \
-  robinlab/op_foundpose jupyter notebook --no-browser --allow-root --IdentityProvider.token=''
+           ./foundpose:/code/foundpose $HOME/.cache -- \
+  robinlab/op_foundpose jupyter notebook --no-browser --IdentityProvider.token=''
 
