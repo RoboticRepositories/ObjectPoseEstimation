@@ -10,3 +10,5 @@ RUN . /root/.bashrc && conda activate sam6d && blenderproc pip install matplotli
  
 WORKDIR /Workspace
 
+CMD ["bash" ,"-c","source /opt/conda/bin/activate && conda activate sam6d && jupyter notebook --no-browser --IdentityProvider.token=''  --notebook-dir=/Workspace"]
+
