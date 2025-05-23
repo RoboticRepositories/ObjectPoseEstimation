@@ -1,0 +1,9 @@
+camera_primesense.json
+dataset_info.md
+test_targets_bop18.json
+test_targets_bop19.json
+models_cad/
+models_eval/
+models_reconst/
+test_primesense/
+
