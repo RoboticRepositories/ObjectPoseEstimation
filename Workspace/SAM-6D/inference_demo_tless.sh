@@ -12,8 +12,8 @@ export OUTPUT_DIR=$PWD/Data/Example_tless/outputs         # path to a pre-define
 export SEGMENTOR_MODEL=sam
 #export SEGMENTOR_MODEL=fastsam
 
-#cd /code/SAM-6D/Instance_Segmentation_Model
-#python run_inference_custom.py --segmentor_model $SEGMENTOR_MODEL --output_dir $OUTPUT_DIR --cad_path $CAD_PATH --rgb_path $RGB_PATH --depth_path $DEPTH_PATH --cam_path $CAMERA_PATH
+cd /code/SAM-6D/Instance_Segmentation_Model
+python run_inference_custom.py --segmentor_model $SEGMENTOR_MODEL --output_dir $OUTPUT_DIR --cad_path $CAD_PATH --rgb_path $RGB_PATH --depth_path $DEPTH_PATH --cam_path $CAMERA_PATH
 
 
 # Run pose estimation model
