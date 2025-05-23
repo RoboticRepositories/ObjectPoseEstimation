@@ -96,6 +96,16 @@ Jupyter is running in the Docker container:
 ![segmentation mask](./assets/ycbv/sam6d_segmentation_mask.png)
 ![pose estimation](./assets/ycbv/sam6d_pose_estimation.png)
 
+4. TLESS test
+    1. [Render templates](http://127.0.0.1:8888/notebooks/render_templates_tless.ipynb)
+    2. Change parameters in `SAM-6D/Instance_Segmentation_Model/segment_anything/automatic_mask_generator.py`:
+        * `points_per_side: Optional[int] = 8,`
+        * `points_per_batch: int = 16,`
+    4. [Run an inference test](http://localhost:8888/notebooks/inference_demo_tless.ipynb)
+
+![segmentation mask](./assets/tless/sam6d_segmentation_mask.png)
+![pose estimation](./assets/tless/sam6d_pose_estimation.png)
+
 ## [FoundPose](https://github.com/facebookresearch/foundpose)
 
 Build the Docker image:
