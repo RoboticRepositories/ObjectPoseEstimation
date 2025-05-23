@@ -35,6 +35,9 @@ cd ObjectPoseEstimation && git submodule update --init --recursive
 ```
 ./Datasets/bop/ycbv/download.sh
 ```
+```
+./Datasets/bop/tless/download.sh
+```
 
 ## [ZS6D](https://github.com/PhilippAuss/ZS6D)
 
