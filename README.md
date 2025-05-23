@@ -79,11 +79,19 @@ Run a Docker container:
 
 Jupyter is running in the Docker container:
 1. [Download models](http://127.0.0.1:8888/notebooks/download_models.ipynb)
-2. [Render templates](http://127.0.0.1:8888/notebooks/render_templates.ipynb)
-3. [Run an inference test](http://localhost:8888/notebooks/inference_demo.ipynb)
+2. LM-O test
+    1. [Render templates](http://127.0.0.1:8888/notebooks/render_templates.ipynb)
+    2. [Run an inference test](http://localhost:8888/notebooks/inference_demo.ipynb)
 
 ![segmentation mask](./assets/sam6d_segmentation_mask.png)
 ![pose estimation](./assets/sam6d_pose_estimation.png)
+
+3. YCBV test
+    1. [Render templates](http://127.0.0.1:8888/notebooks/render_templates_ycbv.ipynb)
+    2. [Run an inference test](http://localhost:8888/notebooks/inference_demo_ycbv.ipynb)
+
+![segmentation mask](./assets/ycbv/sam6d_segmentation_mask.png)
+![pose estimation](./assets/ycbv/sam6d_pose_estimation.png)
 
 ## [FoundPose](https://github.com/facebookresearch/foundpose)
 
