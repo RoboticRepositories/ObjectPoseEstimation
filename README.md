@@ -124,7 +124,9 @@ Run a Docker container:
 Jupyter is running in the Docker container:
 1. [Download](http://localhost:8888/notebooks/download_templates.ipynb) templates for LM-O
 2. [Generate](http://localhost:8888/notebooks/gen_repre.ipynb) object representations for LM-O
-3. [Run an inference test](http://localhost:8888/notebooks/infer.ipynb)
+3. Run an inference test
+    1. [Script for all the images and objects](http://localhost:8888/notebooks/infer.ipynb)
+    2. [Notebook for a single object in an image](http://localhost:8888/notebooks/Inference.ipynb)
 
 ![test 1](./assets/foundpose_infer_1.png)
 ![test 2](./assets/foundpose_infer_2.png)
