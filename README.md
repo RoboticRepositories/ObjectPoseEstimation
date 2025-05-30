@@ -24,6 +24,10 @@ Clone the repository:
 git clone https://github.com/RoboticRepositories/ObjectPoseEstimation.git
 cd ObjectPoseEstimation && git submodule update --init --recursive
 ```
+Note: some of the submodules use [SSH URLs](https://docs.github.com/en/get-started/git-basics/about-remote-repositories#cloning-with-ssh-urls). 
+For cloning them properly you must generate an SSH keypair on your computer 
+and add the public key to your account on GitHub. For more information, 
+see [Connecting to GitHub with SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
 
 ## Datasets
 ```
